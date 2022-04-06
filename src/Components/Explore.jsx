@@ -2,13 +2,13 @@ import React from "react";
 import './Explore.css';
 
 import { Button} from 'react-bootstrap';
-/*
+
 import Amplify from "aws-amplify";
 import { API } from 'aws-amplify';
 
-import awsExports from "./aws-exports";
-Amplify.configure(awsExports);
-*/
+import awsmobile from "./aws-exports";
+Amplify.configure(awsmobile);
+
 
 var user = {email: "123@gmail.com", mostCommonRecipes: [1,2], numRecipesCompleted: 4, password: "dummypassword3",
             recipesCompleted: [1,1,2,2], userID: 3, username: "111"}

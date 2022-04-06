@@ -3,13 +3,13 @@ import React ,  { useState }  from "react";
 import './Add.css';
 import { Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-/*
+
 import Amplify from "aws-amplify";
 import { API } from 'aws-amplify';
 
-import awsExports from "./aws-exports";
-Amplify.configure(awsExports);
-*/
+import awsmobile from "./aws-exports";
+Amplify.configure(awsmobile);
+
 async function addRecipe(event) {                           //send the data to API
   event.preventDefault();
   const data = {
